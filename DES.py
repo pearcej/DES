@@ -34,14 +34,14 @@ def decrypt3DES(cipher):
 
 def main():
     message = "Hi class!"
-    print message
+    print(message)
     cipher = encryptDES(message)
-    print cipher
-    print decryptDES(cipher)
+    print(cipher)
+    print(decryptDES(cipher))
 
 
     cipher = encrypt3DES(message)
-    print cipher
-    print decrypt3DES(cipher)
+    print(cipher)
+    print(decrypt3DES(cipher))
 
 main()
